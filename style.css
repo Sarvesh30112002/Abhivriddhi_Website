@@ -11,7 +11,7 @@ button {
   font-family: "Poppins", sans-serif;
 }
 
-.container {
+.containerr {
   min-height: 100vh;
   width: 100%;
   background-color: #485461;
@@ -20,7 +20,7 @@ button {
   transform-style: preserve-3d;
 }
 
-.navbar {
+.navbarr {
   position: fixed;
   top: 0;
   left: 0;
@@ -129,7 +129,7 @@ header {
   font-size: 2.7rem;
 }
 
-.btn {
+.btnn {
   margin-top: 1rem;
   padding: 0.6rem 1.8rem;
   background-color: #1179e7;
@@ -141,20 +141,20 @@ header {
   text-decoration: none;
 }
 
-.container.active .bar {
+.containerr.active .bar {
   transform: rotate(360deg);
   background-color: transparent;
 }
 
-.container.active .bar:before {
+.containerr.active .bar:before {
   transform: translateY(0) rotate(45deg);
 }
 
-.container.active .bar:after {
+.containerr.active .bar:after {
   transform: translateY(0) rotate(-45deg);
 }
 
-.container.active .main {
+.containerr.active .main {
   animation: main-animation 0.5s ease;
   cursor: pointer;
   transform: perspective(1100px) rotateY(20deg) translateZ(150px) scale(0.5);
@@ -205,7 +205,7 @@ ul {
   color: #fff;
 }
 
-.container.active .links a {
+.containerr.active .links a {
   animation: appear 0.5s forwards ease var(--i);
 }
 
@@ -253,7 +253,7 @@ ul {
   opacity: 0.1;
 }
 
-.container.active .shadow.one {
+.containerr.active .shadow.one {
   animation: shadow-one 0.6s ease-out;
   transform: perspective(1100px) rotateY(20deg) translateZ(102px) scale(0.5);
 }
@@ -272,7 +272,7 @@ ul {
   }
 }
 
-.container.active .shadow.two {
+.containerr.active .shadow.two {
   animation: shadow-two 0.6s ease-out;
   transform: perspective(1100px) rotateY(20deg) translateZ(55px) scale(0.5);
 }
@@ -291,10 +291,10 @@ ul {
   }
 }
 
-.container.active .main:hover + .shadow.one {
+.containerr.active .main:hover + .shadow.one {
   transform: perspective(1300px) rotateY(20deg) translateZ(230px) scale(0.5);
 }
 
-.container.active .main:hover {
+.containerr.active .main:hover {
   transform: perspective(1300px) rotateY(20deg) translateZ(340px) scale(0.5);
 }
